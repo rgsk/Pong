@@ -731,7 +731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecc2cf2e3aea4e40a935014fe840f0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 20
 --- !u!114 &666287422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c5836f74fb5491e9df02b9aeb029e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounceStrength: 10
+  bounceStrength: 50
 --- !u!1 &1036718348
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,8 +830,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1255,8 +1255,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1552,7 +1552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c5836f74fb5491e9df02b9aeb029e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounceStrength: 10
+  bounceStrength: 50
 --- !u!1 &2035991995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1583,6 +1583,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 1415198861}
+  playerScoreText: {fileID: 1036718350}
+  computerScoreText: {fileID: 1532334546}
 --- !u!4 &2035991997
 Transform:
   m_ObjectHideFlags: 0
