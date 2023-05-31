@@ -14,7 +14,7 @@ public class PlayerPaddle : Paddle {
     private void FixedUpdate() {
         if (_direction.sqrMagnitude != 0) {
             // we are moving
-            _rigidBody.AddForce(_direction * this.speed);
+            _rigidbody.AddForce(_direction * this.speed);
         }
     }
 }
