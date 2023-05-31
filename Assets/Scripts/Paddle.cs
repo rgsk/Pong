@@ -1,13 +1,9 @@
 using UnityEngine;
 
 public class Paddle : MonoBehaviour {
-    // Start is called before the 
-    void Start() {
-
-    }
-
-    // Update is called once per frame
-    void Update() {
-
+    public float speed = 10.0f;
+    protected Rigidbody2D _rigidBody;
+    private void Awake() {
+        _rigidBody = GetComponent<Rigidbody2D>();
     }
 }
