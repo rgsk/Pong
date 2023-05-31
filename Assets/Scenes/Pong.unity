@@ -1583,6 +1583,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 1415198861}
+  playerPaddle: {fileID: 666287421}
+  computerPaddle: {fileID: 1831618220}
   playerScoreText: {fileID: 1036718350}
   computerScoreText: {fileID: 1532334546}
 --- !u!4 &2035991997
